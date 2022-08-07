@@ -41,8 +41,10 @@
         <fieldset class="form-group">
             
             {{form|crispy}}
-            {#<script src="https://www.google.com/recaptcha/api.js"></script>#}
-            {#<div class="g-recaptcha" data-sitekey="6Lc6oUkaAAAAANkQnN5HaqEaDix1IvP7vkJSA1Zv"></div>#}
+            {% comment %}
+            <script src="https://www.google.com/recaptcha/api.js"></script>
+            <div class="g-recaptcha" data-sitekey="6Lc6oUkaAAAAANkQnN5HaqEaDix1IvP7vkJSA1Zv"></div>
+            {% endcomment %}
         </fieldset>
         <div class="form-group">
             <button class="btn btn-outline-info" type="submit">Sign Up</button>
