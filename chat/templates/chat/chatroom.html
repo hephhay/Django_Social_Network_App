@@ -137,8 +137,10 @@
 
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
 
+        proto = document.location.protocol == 'https:' ? 'wss://' : 'ws://'
+
         const chatSocket = new WebSocket(
-            'ws://' +
+            'wss://' +
             window.location.host +
             '/ws/chat/' +
             roomName +
