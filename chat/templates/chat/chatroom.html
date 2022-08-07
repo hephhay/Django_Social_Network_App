@@ -140,7 +140,7 @@
         proto = document.location.protocol == 'https:' ? 'wss://' : 'ws://'
 
         const chatSocket = new WebSocket(
-            'wss://' +
+            proto +
             window.location.host +
             '/ws/chat/' +
             roomName +
