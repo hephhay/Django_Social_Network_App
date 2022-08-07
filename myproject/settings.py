@@ -202,7 +202,7 @@ MESSAGE_TAGS = {
         messages.ERROR: 'alert-danger',
 }
 
-ASGI_APPLICATION = "myproject.routing.application"
+ASGI_APPLICATION = "myproject.asgi.application"
 
 CHANNEL_LAYERS = {
     "default":{
