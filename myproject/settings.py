@@ -210,7 +210,7 @@ CHANNEL_LAYERS = {
     },
 }
 
-SITE_ID = 1     # considering 2nd site in 'Sites' to be 127.0.0.1 (for dev)
+SITE_ID = os.getenv("SITE_ID")
 
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
