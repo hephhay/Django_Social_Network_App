@@ -16,10 +16,9 @@ A social media web-application with Django.
 
 ## Demo
 
+
 https://word-bucket.herokuapp.com/
 
-
-<a href="./demo/demo1.mp4">Video Link</a>
 
 ## Adding env variables
 
