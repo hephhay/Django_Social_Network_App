@@ -183,6 +183,8 @@ class ProfileDetailView(LoginRequiredMixin,DetailView):
         context['is_friend'] = is_friend
         context['is_self'] = is_self
         context['friend_requests'] = friend_requests
+        context['is_online'] = False
+        context['is_completed'] = False
         # FRIENDS END
         
         return context
